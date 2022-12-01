@@ -1,0 +1,42 @@
+1. Node js being a single threaded application means that all its operations are performed synchronously on a single thread and the execution of a line of code is dependent on the line of code that comes befre it
+
+2. npm init
+
+3.Nodemon helps in restarting the node automatically when changes are made to the node 
+
+// 4.
+// const mysql = require('mysql');
+// const express = require('express');
+// const app = express();
+// const PORT = 3000
+
+// var connection = mysql.createConnection({
+//     host: 'localhost',
+//     user: 'root',
+//     password: 'password',
+//     database: '<DB_NAME>'
+// });
+
+// connection.connect(function(err) {
+//   if (err) console.error(err);
+//   console.log("Connected!");
+// });
+// app.listen(PORT);
+// 5. B
+
+// 6. A
+
+// 7. Types of HTTP requests:
+//1. POST = this type of request is mainly used to submit . It is used to send new information to the server 
+// 2. DELETE = this type of request is used to delete content from the server 
+// 3. PUT = this type of request is used to send updates to the server.
+//4. PATCH = this type of request is used to send encrypted information to the server e.g a user's password
+
+//8. 
+// const fs = require('fs');
+// fs.copyFile('the folder you want to copy from', 'the folder you want to copy the information to', (err) => {
+//   if (err) throw err;
+//   console.log('File was copied to destination');
+// });
+
+//9. 
